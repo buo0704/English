@@ -1,0 +1,112 @@
+:root {
+    --color-primary: #66ff5e;    /* 배경 녹색 */
+    --color-word: #ffff0d;       /* 단어 카드 노란색 */
+    --color-grammar: #0083ff;    /* 문법 카드 파란색 */
+    --color-text-dark: #000000;  /* 검은색 텍스트 */
+    --color-text-light: #ffff0d; /* 노란색 텍스트 */
+    /* 폰트 */
+    --font-family: "Inter-Medium", Helvetica;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    overflow-x: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.index {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    padding: 32px;
+    gap: 64px;
+}
+
+.index-header {
+    text-align: center;
+}
+
+.index-title {
+    max-width: 766px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.index-nav {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 카드 공통 스타일 */
+.card {
+    width: 330px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* 단어 카드 */
+.card-word {
+    background-color: var(--color-word);
+    transform: rotate(-11.32deg);
+}
+
+.card-word:hover {
+    transform: rotate(-11.32deg) scale(1.08);   
+}
+
+/* 문법 카드 */
+.card-grammar {
+    background-color: var(--color-grammar);
+    transform: rotate(15.83deg);
+}
+
+.card-grammar:hover,
+.card-grammar:focus {
+    transform: rotate(15.83deg) scale(1.08);
+}
+
+/* 카드 텍스트(단어, 문법) */
+.card-text {
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+/* 단어 카드 텍스트 색상 */
+.card-word .card-text {
+    color: var(--color-text-dark);
+}
+
+/* 문법 카드 텍스트 색상 */
+.card-grammar .card-text {
+    color: var(--color-text-light);
+}
