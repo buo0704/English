@@ -1,0 +1,115 @@
+:root {
+    --color-background: #66ff5e;
+    --color-card: #ffff0d;
+    --color-text-dark: #000000;
+    --color-title: #ffff0d;
+    
+    --font-family: "Inter-Medium", Helvetica;
+    --font-title: "Gasoek One-Regular", Helvetica;
+
+    --card-width: 370px;
+    --card-height: 105px;
+    --card-gap: 27px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-background);
+}
+
+.word-page {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    padding: 37px 74px;
+    position: relative;
+}
+
+.word-header {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.back-icon {
+    width: 70px;
+    height: auto;
+    display: block;
+}
+
+.back-icon:hover {
+    transform: scale(1.1);
+}
+
+.level-title {
+    font-family: var(--font-title);
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: left;
+    letter-spacing: -0.64px;
+    line-height: 96px;
+}
+/* 단어 카드 그리드 */
+.word-grid {
+    display: grid;
+    /* 8개 열 (카드 8개) */
+    grid-template-columns: repeat(5, var(--card-width));
+    /* 5개 행  */
+    grid-template-rows: repeat(8, var(--card-height));
+    gap: var(--card-gap);
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+/* 단어 카드 */
+.word-card {
+    background-color: var(--color-card);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    /* 클릭 가능 */
+    cursor: pointer;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.word-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.word-card:active {
+    transform: translateY(0);
+}
+
+.word-card:empty {
+    background-color: transparent;
+    box-shadow: none;
+    cursor: default;
+}
+
+.word-card:empty:hover {
+    transform: none;
+}
