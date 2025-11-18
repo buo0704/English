@@ -35,21 +35,6 @@ body {
     margin-bottom: 70px;
 }
 
-.back-button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-}
-
-.back-icon {
-    width: 70px;
-    height: auto;
-    display: block;
-}
-
-.back-icon:hover {
-    transform: scale(1.1);
-}
-
 .level-title {
     font-family: var(--font-title);
     font-size: 64px;
