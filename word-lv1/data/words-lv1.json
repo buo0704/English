@@ -487,5 +487,342 @@
         "derivatives": [
             {"word": "mindlessly", "meaning": "부주의하게, 아무 생각 없이"}
         ]
-    }   
+    }, 
+    
+    "temperature": {
+        "word": "temperature",
+        "meaning": "1.온도 2.체온",
+        "pronunciation": {
+            "symbol": "ˈtem.prə.tʃər",
+            "korean": "템퍼러처"
+        }
+    },  
+    
+    "tradition": {
+        "word": "tradition",
+        "meaning": "1.전통",
+        "pronunciation": {
+            "symbol": "trəˈdɪʃ.ən",
+            "korean": "트래디션"
+        },
+        "derivatives": [
+            {"word": "traditional", "meaning": "전통적인"},
+            {"word": "traditional clothing", "meaning": "전통의복"}
+        ]
+    },  
+    
+    "pulse": {
+        "word": "pulse",
+        "meaning": "1.맥박 2.파동, 3.진동",
+        "pronunciation": {
+            "symbol": "pʌ́ls",
+            "korean": "펄스"
+        }
+    },
+    
+    "military": {
+        "word": "military",
+        "meaning": "1.군의 2.군대, 3.군대의;",
+        "pronunciation": {
+            "symbol": "|mɪləteri",
+            "korean": "밀리터리"
+        }
+    },
+    
+    "gravity": {
+        "word": "gravity",
+        "meaning": "1.중력, 2.인력",
+        "pronunciation": {
+            "symbol": "ˈɡrævəti",
+            "korean": "그래버티"
+        }
+    },     
+
+    "cancel": {
+        "word": "cancel",
+        "meaning": "1.취소하다, 2.무효로 하다",
+        "pronunciation": {
+            "symbol": "ˈkæns",
+            "korean": "캔슬"
+        }
+    }, 
+    
+    "method": {
+        "word": "method",
+        "meaning": "1.방법, 2.수단",
+        "pronunciation": {
+            "symbol": "ˈmeθəd ",
+            "korean": "메써드"
+        }
+    },       
+
+    "heal": {
+        "word": "heal",
+        "meaning": "1.<상처·아픔·고장 등을> 고치다, 2. 낫게 하다",
+        "pronunciation": {
+            "symbol": "hiːl",
+            "korean": "힐"
+        },
+        "derivatives": [
+            {"word": "healer", "meaning": "치료자, 약"},
+            {"word": "healing", "meaning": "치료의, 회복시키는; 치료"}
+        ]
+    },
+    
+    "employ": {
+        "word": "employ",
+        "meaning": "1.고용하다",
+        "pronunciation": {
+            "symbol": "ɪmˈplɔɪ",
+            "korean": "임플로이"
+        },
+        "derivatives": [
+            {"word": "employment", "meaning": "고용"},
+            {"word": "employer", "meaning": "고용주"},
+            {"word": "employee", "meaning": "피고용인, 종업원"},
+            {"word": "unemployment", "meaning": "실업, 실직"}
+        ]
+    }, 
+    
+    "spoil": {
+        "word": "spoil",
+        "meaning": "1.망치다, 2.(성격 등을)버리다",
+        "pronunciation": {
+            "symbol": "spɔɪl",
+            "korean": "스포일"
+        }
+    }, 
+    
+    "tend": {
+        "word": "tend",
+        "meaning": "1.~하는 경험이 있다, 2.~을 돌보다",
+        "pronunciation": {
+            "symbol": "tend",
+            "korean": "텐드"
+        }
+    },       
+
+    "tendency": {
+        "word": "tendency",
+        "meaning": "1.경향, 2.추세, 3.성향",
+        "pronunciation": {
+            "symbol": "ˈten.dən.s",
+            "korean": "텐던시"
+        }
+    },
+    
+    "medicine": {
+        "word": "medicine",
+        "meaning": "1.약, 2.의학",
+        "pronunciation": {
+            "symbol": "|medɪsn",
+            "korean": "메더신"
+        }
+    },
+    
+    "medical": {
+        "word": "medical",
+        "meaning": "1.의학의, 2.의약의",
+        "pronunciation": {
+            "symbol": "ˈmed.ɪ.kəl",
+            "korean": "메디컬"
+        }
+    },     
+
+    "immediate": {
+        "word": "immediate",
+        "meaning": "1.즉시의, 2.당장의",
+        "pronunciation": {
+            "symbol": "ɪˈmiː.di.ət",
+            "korean": "이미디엣"
+        },
+        "derivatives": [
+            {"word": "immediately", "meaning": "곧, 즉시"}
+        ]
+    }, 
+    
+    "calm": {
+        "word": "calm",
+        "meaning": "1.고요한, 2.조용한, 3.진정시키다",
+        "pronunciation": {
+            "symbol": "kɑːm",
+            "korean": "캄"
+        },
+        "derivatives": [
+            {"word": "calmly", "meaning": "온화하게, 침착히"},
+            {"word": "calm down", "meaning": "(분노 흥분 등을)가라앉히다"}
+        ]
+    },  
+    
+    "devote": {
+        "word": "devote",
+        "meaning": "1.헌신하다, 2.(노력,시간 등을)바치다",
+        "pronunciation": {
+            "symbol": "dɪˈvoʊt",
+            "korean": "디보트"
+        },
+        "derivatives": [
+            {"word": "devotion", "meaning": "헌신"}
+        ]
+    },  
+    
+    "scenery": {
+        "word": "scenery",
+        "meaning": "1.풍경, 2.경치, 3.배경",
+        "pronunciation": {
+            "symbol": "ˈsiː.nər.i",
+            "korean": "시너리"
+        }
+    },  
+    
+    "rapid": {
+        "word": "rapid",
+        "meaning": "1.빠른, 2.급속한",
+        "pronunciation": {
+            "symbol": "ˈræ.pɪd",
+            "korean": "래피드"
+        }
+    }, 
+    
+    "nowadays": {
+        "word": "nowadays",
+        "meaning": "1.오늘날, 2.현대",
+        "pronunciation": {
+            "symbol": "ˈnaʊ.ə.deɪz",
+            "korean": "나우어데이즈"
+        }
+    },    
+    
+    "resemblance": {
+        "word": "resemblance",
+        "meaning": "1.유사, 2.닮음",
+        "pronunciation": {
+            "symbol": "rɪˈzem.bləns",
+            "korean": "리젬블런스"
+        },
+        "derivatives": [
+            {"word": "resemble", "meaning": "닮다"}
+        ]
+    },  
+
+    "reduce": {
+        "word": "reduce",
+        "meaning": "1.줄이다, 2.감소시키다",
+        "pronunciation": {
+            "symbol": "rɪˈduːs",
+            "korean": "리듀스"
+        }
+    },  
+    
+    "drastic": {
+        "word": "drastic",
+        "meaning": "1.대폭적인, 2.과감한, 3.철저한",
+        "pronunciation": {
+            "symbol": "ˈdræs.tɪk",
+            "korean": "드래스틱"
+        },
+        "derivatives": [
+            {"word": "drastically", "meaning": "철저하게, 과감하게"}
+        ]
+    },    
+
+    "sigh": {
+        "word": "sigh",
+        "meaning": "1.한숨 쉬다;, 2.한숨",
+        "pronunciation": {
+            "symbol": "saɪ",
+            "korean": "사이"
+        }
+    },      
+
+    "main": {
+        "word": "main",
+        "meaning": "1.주요한, 2.주된,",
+        "pronunciation": {
+            "symbol": "meɪn",
+            "korean": "메인"
+        },
+        "derivatives": [
+            {"word": "mainly", "meaning": "주로"}
+        ]
+    }, 
+    
+    "destination": {
+        "word": "destination",
+        "meaning": "1.목적지, 2.목적, 3.목표",
+        "pronunciation": {
+            "symbol": "ˌdes.təˈneɪ.ʃən",
+            "korean": "데스터네이션"
+        }
+    },  
+    
+    "destiny": {
+        "word": "destiny",
+        "meaning": "1.운명, 2.숙명",
+        "pronunciation": {
+            "symbol": "ˈdes.tə.ni",
+            "korean": "데스티니"
+        },
+        "derivatives": [
+            {"word": "destine", "meaning": "운명 짓다, 예정해 두다"},
+            {"word": "be destined to", "meaning": "~ 할 운명이다"}
+        ]
+    }, 
+    
+    "sweat": {
+        "word": "sweat",
+        "meaning": "1.땀;, 2.땀을 흘리다",
+        "pronunciation": {
+            "symbol": "swet",
+            "korean": "스웻"
+        }
+    },  
+    
+    "purpose": {
+        "word": "purpose",
+        "meaning": "1.목적, 2.의도",
+        "pronunciation": {
+            "symbol": "ˈpɝː.pəs",
+            "korean": "퍼퍼스"
+        }
+    }, 
+
+    "hold": {
+        "word": "hold",
+        "meaning": "1.들고 있다, 2.유지하다",
+        "pronunciation": {
+            "symbol": "hoʊld",
+            "korean": "홀드"
+        }
+    }, 
+    
+    "hendle": {
+        "word": "hendle",
+        "meaning": "1.손잡이, 2.다루다",
+        "pronunciation": {
+            "symbol": "ˈhæn.dl",
+            "korean": "핸들"
+        }
+    },
+    
+    "weigh": {
+        "word": "weigh",
+        "meaning": "1.무게를 재다, 2.무게가 나가다",
+        "pronunciation": {
+            "symbol": "weɪ",
+            "korean": "웨이"
+        }
+    }, 
+    
+    "contend": {
+        "word": "contend",
+        "meaning": "1.싸우다, 2.논쟁하다",
+        "pronunciation": {
+            "symbol": "kənˈtend",
+            "korean": "컨텐드"
+        },
+        "derivatives": [
+            {"word": "contention", "meaning": "말다툼, 논쟁"}
+        ]
+    }
 }
