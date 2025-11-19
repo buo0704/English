@@ -5,16 +5,16 @@
     <meta charset="utf-8" />
     <title>영어 학습 사이트</title>
     <meta name="description" content="재미있게 배우는 영어">
-    <link rel="stylesheet" href="index/css/index.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <main class="index">
       <header class="index-header">
         <h1 class="visually-hidden">English Learning</h1>
-        <img class="index-title" src="index/img/english_artboard_fit_white_text.png" alt="English Learning 로고">
+        <img class="index-title" src="img/english_artboard_fit_white_text.png" alt="English Learning 로고">
       </header>
       <nav class="index-nav">
-        <a href="word/word.html" class="card card-word" aria-label="단어 학습 페이지로 이동">
+        <a href="/word/word.html" class="card card-word" aria-label="단어 학습 페이지로 이동">
           <span class="card-text">단어</span>
         </a>
         <a href="grammar.html" class="card card-grammar" aria-label="문법 학습 페이지로 이동">
@@ -22,5 +22,28 @@
         </a>
       </nav>
     </main>
+
+    <footer>
+        <section class="bottom-menu">
+            <div class="project-card" onclick="window.open('https://github.com/buo0704/English.io', '_blank')">
+                <h3>GitHub</h3>
+                    <ul>
+                        <li>프로젝트 코드</li>
+                    </ul>
+                <span class="git">GitHub 저장소 이동</span>
+                <img src="img/github.png" alt="github 아이콘">
+            </div>
+
+            <div class="skill-card">
+                <h3>사용한 스킬</h3>
+                <ul class="skill-img">
+                    <li><img src="img/illustrator.png" alt="illustrator"></li>
+                    <li><img src="img/html5.png" alt="html5"></li>
+                    <li><img src="img/css3.png" alt="css3"></li>
+                    <li><img src="img/javascript.png" alt="javascript"></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
   </body>
 </html>
