@@ -2,10 +2,8 @@
     --color-background: rgb(102, 255, 94);
     --color-card: rgb(255, 255, 0);
     --color-text-dark: rgb(0, 0, 0);
-    --color-title: rgb(255, 255, 0);
 
     --font-family: "Inter-Medium", Helvetica;
-    --font-title: "Gasoek One-Regular" Helvetica;
 
     --card-width: 370px;
     --card-height: 105px;
@@ -24,24 +22,24 @@ body {
 }
 
 .wrod-page {
-    min-height: 100vh;
-    padding: 37px 74px;
     position: relative;
+    margin-bottom: 70px;
+    text-align: center;
 }
 
 .word-header {
     position: relative;
     margin-bottom: 70px;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .level-title {
-    font-family: var(--font-title);
-    font-size: 64px;
-    font-weight: 400;
-    color: var(--color-title);
-    text-align: left;
-    letter-spacing: -0.64px;
-    line-height: 96px;
+    width: 145px;
+    height: 51px;
+    margin: 50px 0 0 0;
+    margin-left: calc((100% - (5 * var(--card-width) + 4 * var(--card-gap))) / 2);
 }
 
 .word-grid {
@@ -95,6 +93,15 @@ body {
 
 .word-card:empty:hover {
     transform: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .word-grid {
+    /* 창 크기에 맞춰 열 개수 자동 조정 */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    /* 카드 높이는 그대로 유지 */
+    grid-auto-rows: var(--card-height);
+  }
 }
 
 @media screen and (max-height: 1200px) {
