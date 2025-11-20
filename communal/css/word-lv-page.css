@@ -1,0 +1,132 @@
+:root {
+    --color-background: rgb(102, 255, 94);
+    --color-card: rgb(255, 255, 0);
+    --color-text-dark: rgb(0, 0, 0);
+    --color-title: rgb(255, 255, 0);
+
+    --font-family: "Inter-Medium", Helvetica;
+    --font-title: "Gasoek One-Regular" Helvetica;
+
+    --card-width: 370px;
+    --card-height: 105px;
+    --card-gap: 27px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-background);
+}
+
+.wrod-page {
+    min-height: 100vh;
+    padding: 37px 74px;
+    position: relative;
+}
+
+.word-header {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.level-title {
+    font-family: var(--font-title);
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: left;
+    letter-spacing: -0.64px;
+    line-height: 96px;
+}
+
+.word-grid {
+    display: grid;
+    /* 5개 열 (카드 5개) */
+    grid-template-columns: repeat(5, var(--card-width));
+    /* 8개 행 */
+    grid-template-rows: repeat(8, var(--card-height));
+
+    gap: var(--card-gap);
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.word-card {
+    background-color: var(--color-card);
+    border-radius: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.word-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.word-card:active {
+    transform: translateY(0);
+}
+
+.word-card:empty {
+    background-color: transparent;
+    box-shadow: none;
+    cursor: default;
+}
+
+.word-card:empty:hover {
+    transform: none;
+}
+
+@media screen and (max-height: 1200px) {
+  :root {
+    --card-width: 320px;
+    --card-height: 90px;
+    --card-gap: 20px;
+  }
+
+  .word-card {
+    font-size: 32px;
+  }
+
+  .level-title {
+    font-size: 56px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-height: 1000px) {
+  :root {
+    --card-width: 280px;
+    --card-height: 80px;
+    --card-gap: 18px;
+  }
+
+  .word-card {
+    font-size: 28px;
+  }
+
+  .level-title {
+    font-size: 48px;
+    line-height: 70px;
+  }
+}
