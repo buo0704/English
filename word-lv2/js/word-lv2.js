@@ -31,7 +31,7 @@ const popup = document.getElementById('popup');
 // JSON 파일에서 단어 데이터 불러오기
 async function loadWordData() {
     try {
-        const response = await fetch('data/word-data.json');
+        const response = await fetch('data/word-lv2-data.json');
         
         if (!response.ok) {
             throw new Error('JSON 파일을 찾을 수 없습니다');
@@ -42,7 +42,7 @@ async function loadWordData() {
         
     } catch (error) {
         console.error('단어 데이터 로드 실패:', error);
-        alert('단어 데이터를 불러오는데 실패했습니다. data/words-lv1.json 파일을 확인해주세요.');
+        alert('단어 데이터를 불러오는데 실패했습니다. data/word-lv2-data.json 파일을 확인해주세요.');
     }
 }
 
