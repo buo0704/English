@@ -10,13 +10,13 @@ const allWords = [
     "locate", "fix", "warn", "freezing", "wipe",
     "scholar", "hasty", "view", "soil", "quality",
     "quantity", "vehicle", "mindless", "temperature", "tradition",
-    "pulse", "military", "matter", "aware", "share",
-    "injure", "ignore", "crosswalk", "district",
-    "port", "import", "transport", "portable", "tidy",
-    "conduct", "stand", "depend", "participate", "store",
-    "accept", "drug", "diet", "navigation", "pharmacy",
-    "risk", "beverage", "greet", "fellow", "clinic",
-    "role"
+    "pulse", "military", "gravity", "method", "heal",
+    "employ", "spoil", "tend", "tendency",
+    "medicine", "medical", "calm", "devote", "scenery",
+    "rapid", "nowadays", "resemblance", "reduce", "drastic",
+    "sigh", "main", "diet", "destination", "destiny",
+    "sweat", "purpose", "hold", "hendle", "weigh",
+    "contend"
 ];
 
 // 전역 변수
