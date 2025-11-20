@@ -1,0 +1,146 @@
+:root {
+    /* 폰트 */
+    --font-family: "Inter-Medium", Helvetica;
+    --font-title: "Gasoek One-Regular", Helvetica;
+    
+    /* 팝업 크기 */
+    --popup-width: 830px;
+    --popup-height: 340px;
+    
+    /* 팝업 색상 */
+    --popup-bg: rgb(255, 255, 255);
+    --popup-border-color: rgb(0, 0, 0);
+    --popup-border-width: 2px;
+    --popup-border-radius: 15px;
+    --popup-overlay-bg: rgba(0, 0, 0, 0.3);
+    
+    /* 팝업 여백 */
+    --popup-padding-top: 60px;
+    --popup-padding-right: 60px;
+    --popup-padding-bottom: 40px;
+    --popup-padding-left: 34px;
+    
+    /* 팝업 폰트 크기 */
+    --popup-word-size: 65px;
+    --popup-meaning-size: 45px;
+    --popup-pronunciation-symbol-size: 37px;
+    --popup-pronunciation-korean-size: 40px;
+    --popup-derivative-word-size: 40px;
+    --popup-derivative-meaning-size: 35px;
+    
+    /* 팝업 간격 */
+    --popup-word-margin: 45px;
+    --popup-meaning-margin: 24px;
+    --popup-pronunciation-margin: 37px;
+    --popup-derivatives-gap: 20px;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--popup-overlay-bg);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.popup-overlay.active {
+    display: block;
+}
+
+.popup {
+    position: fixed;
+    width: var(--popup-width);
+    height: var(--popup-height);
+    background-color: var(--popup-bg);
+    border: var(--popup-border-width) solid var(--popup-border-color);
+    border-radius: var(--popup-border-radius);
+    padding: var(--popup-padding-top) var(--popup-padding-right) var(--popup-padding-bottom) var(--popup-padding-left);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+/* 영어 단어 */
+.popup-word {
+    font-family: var(--font-family);
+    font-size: var(--popup-word-size);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 0 var(--popup-word-margin) 0;
+    line-height: 1;
+    display: inline;
+    margin-right: 30px;
+}
+
+/* 한글 뜻 */
+.popup-meaning {
+    font-family: var(--font-family);
+    font-size: var(--popup-meaning-size);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 0 0 var(--popup-meaning-margin) 0;
+    line-height: 1.2;
+    display: inline;
+}
+
+/* 발음 */
+.popup-pronunciation {
+    font-family: var(--font-family);
+    margin: 25px 0 var(--popup-pronunciation-margin) 0;
+    line-height: 1;
+    display: block;
+    margin-left: 10px;
+}
+
+.pronunciation-symbol {
+    font-size: var(--popup-pronunciation-symbol-size);
+    color: rgb(0, 0, 0);
+    margin-right: 37px;
+}
+
+.pronunciation-korean {
+    font-size: var(--popup-pronunciation-korean-size);
+    color: rgb(0, 0, 0);
+}
+
+/* 파생 단어 영역 */
+.popup-derivatives {
+    display: flex;
+    flex-direction: column;
+    gap: var(--popup-derivatives-gap);
+}
+
+/* 각 파생 단어 항목 */
+.derivative-item {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.bullet {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1;
+}
+
+/* 파생 단어 영어 */
+.derivative-word {
+    font-family: var(--font-family);
+    font-size: var(--popup-derivative-word-size);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+
+/* 파생 단어 한글 뜻 */
+.derivative-meaning {
+    font-family: var(--font-family);
+    font-size: var(--popup-derivative-meaning-size);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
