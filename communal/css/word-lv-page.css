@@ -19,6 +19,7 @@
 body {
     font-family: var(--font-family);
     background-color: var(--color-background);
+    margin-bottom: 200px;
 }
 
 .wrod-page {
