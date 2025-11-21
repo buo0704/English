@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #66ff5e;    /* 배경 녹색 */
-    --color-word: #ffff0d;       /* 단어 카드 노란색 */
-    --color-grammar: #0083ff;    /* 문법 카드 파란색 */
-    --color-text-dark: #000000;  /* 검은색 텍스트 */
-    --color-text-light: #ffff0d; /* 노란색 텍스트 */
+    --color-primary: rgb(102, 255, 94);    /* 배경 녹색 */
+    --color-word: rgb(255, 255, 0);       /* 단어 카드 노란색 */
+    --color-sentence: rgb(0, 131, 255);   /* 문법 카드 파란색 */
+    --color-text-dark: rgb(0, 0, 0);  /* 검은색 텍스트 */
+    --color-text-light: rgb(255, 255, 0); /* 노란색 텍스트 */
     /* 폰트 */
     --font-family: "Inter-Medium", Helvetica;
 }
@@ -81,13 +81,13 @@ body {
 .card-word:hover { transform: rotate(-11.32deg) scale(1.08); }
 
 /* 문법 카드 */
-.card-grammar {
-    background-color: var(--color-grammar);
+.card-sentence {
+    background-color: var(--color-sentence);
     transform: rotate(15.83deg);
 }
 
-.card-grammar:hover,
-.card-grammar:focus { transform: rotate(15.83deg) scale(1.08); }
+.card-sentence:hover,
+.card-sentence:focus { transform: rotate(15.83deg) scale(1.08); }
 
 /* 카드 텍스트(단어, 문법) */
 .card-text {
@@ -100,7 +100,7 @@ body {
 .card-word .card-text { color: var(--color-text-dark);}
 
 /* 문법 카드 텍스트 색상 */
-.card-grammar .card-text { color: var(--color-text-light);}
+.card-sentence .card-text { color: var(--color-text-light);}
 
 footer {
     padding: 20px;
@@ -120,7 +120,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid #ffffff;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
     padding: 12px;
     min-width: 260px;
@@ -129,7 +129,7 @@ footer {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 .project-card ul {
@@ -139,7 +139,7 @@ footer {
 
 .project-card a {
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -159,14 +159,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid #ffffff;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
     padding: 12px;
     min-width: 270px;
     max-width: 100%;
     font-family: Arial, sans-serif;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 .skill-card h3 { margin: 0 0 15px 0;}
