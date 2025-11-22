@@ -1,0 +1,728 @@
+{ 
+    "dense": {
+        "word": "dense",
+        "meaning": "밀집한, 뺵빽한",
+        "pronunciation": {
+            "symbol": "ɪnˈdʊr",
+            "korean": "엔듀어"
+        }
+    },
+
+    "flaw": {
+        "word": "flaw",
+        "meaning": "흠, 결점",
+        "pronunciation": {
+            "symbol": "flɔː",
+            "korean": "플로"
+        }
+    },  
+    
+    "obsolete": {
+        "word": "obsolete",
+        "meaning": "사용되지 않는, 구식의",
+        "pronunciation": {
+            "symbol": "ˌɑːbsəˈliːt",
+            "korean": "압솔리트"
+        }
+    },
+
+    "evade": {
+        "word": "evade",
+        "meaning": "피하다, 모면하다, 회피하다",
+        "pronunciation": {
+            "symbol": "ɪˈveɪd",
+            "korean": "이베이드"
+        }
+    }, 
+    
+    "tease": {
+        "word": "tease",
+        "meaning": "놀리다, 괴롭히다",
+        "pronunciation": {
+            "symbol": "tiːz",
+            "korean": "티즈"
+        }
+    },
+
+    "hindrance": {
+        "word": "hindrance",
+        "meaning": "방해, 장애",
+        "pronunciation": {
+            "symbol": "ˈhɪndrəns",
+            "korean": "힌드런스"
+        }
+    }, 
+    
+    "hatch": {
+        "word": "hatch",
+        "meaning": "(알이)부화하다, 부화시키다",
+        "pronunciation": {
+            "symbol": "hætʃ",
+            "korean": "해치"
+        }
+    },
+
+    "thread": {
+        "word": "thread",
+        "meaning": "실; 실에 꿰다",
+        "pronunciation": {
+            "symbol": "θred",
+            "korean": "스레드"
+        }
+    },
+    
+    "chill": {
+        "word": "chill",
+        "meaning": "냉기, 한기",
+        "pronunciation": {
+            "symbol": "tʃɪl",
+            "korean": "칠"
+        }
+    },
+
+    "acid": {
+        "word": "acid",
+        "meaning": "산; 산성의",
+        "pronunciation": {
+            "symbol": "ˈæsɪd",
+            "korean": "애시드"
+        }
+    },  
+    
+
+    "embrace": {
+        "word": "embrace",
+        "meaning": "껴안다, 포옹하다",
+        "pronunciation": {
+            "symbol": "ɪmˈbreɪs",
+            "korean": "임브레이스"
+        }
+    },
+
+    "roam": {
+        "word": "roam",
+        "meaning": "이리저리 돌아다니다, 배회하다",
+        "pronunciation": {
+            "symbol": "roʊm",
+            "korean": "로움"
+        }
+    },  
+    
+    "announce": {
+        "word": "announce",
+        "meaning": "발표하다, 알리다",
+        "pronunciation": {
+            "symbol": "əˈnaʊns",
+            "korean": "어나운스"
+        }
+    },
+
+    "steer": {
+        "word": "steer",
+        "meaning": "조종하다, 운전하다",
+        "pronunciation": {
+            "symbol": "stɪr",
+            "korean": "스티어"
+        }
+    }, 
+    
+    "rigorous": {
+        "word": "rigorous",
+        "meaning": "엄격한, 철저한",
+        "pronunciation": {
+            "symbol": "ˈrɪɡərəs",
+            "korean": "리거러스"
+        }
+    },
+
+    "hazard": {
+        "word": "hazard",
+        "meaning": "위험 요소, 위험 요인",
+        "pronunciation": {
+            "symbol": "ˈhæzərd",
+            "korean": "해저드"
+        }
+    }, 
+    
+    "obscure": {
+        "word": "obscure",
+        "meaning": "잘 알려지지 않은, 무명의",
+        "pronunciation": {
+            "symbol": "əbˈskjʊr",
+            "korean": "업스큐어"
+        }
+    },
+
+    "obstacle": {
+        "word": "obstacle",
+        "meaning": "장애물, 걸림돌, 방해 요소",
+        "pronunciation": {
+            "symbol": "ˈɑːbstəkl",
+            "korean": "옵스터클"
+        }
+    },
+    
+    "yield": {
+        "word": "yield",
+        "meaning": "산출하다, 양보하다",
+        "pronunciation": {
+            "symbol": "tʃɪl",
+            "korean": "칠"
+        }
+    },
+
+    "punctual": {
+        "word": "punctual",
+        "meaning": "시간을 엄수하는",
+        "pronunciation": {
+            "symbol": "ˈpʌŋktʃuəl",
+            "korean": "펑츄얼"
+        }
+    },
+    
+
+  "myth": {
+        "word": "myth",
+        "meaning": "신화",
+        "pronunciation": {
+            "symbol": "mɪθ",
+            "korean": "미스"
+        }
+    },
+
+    "patrol": {
+        "word": "patrol",
+        "meaning": "순찰, 순찰대",
+        "pronunciation": {
+            "symbol": "pəˈtroʊl",
+            "korean": "패트롤"
+        }
+    },  
+    
+    "cease": {
+        "word": "cease",
+        "meaning": "그치다, 멈추다",
+        "pronunciation": {
+            "symbol": "siːs",
+            "korean": "시스"
+        }
+    },
+
+    "cradle": {
+        "word": "cradle",
+        "meaning": "요람, 아기 침대",
+        "pronunciation": {
+            "symbol": "ˈkreɪdl",
+            "korean": "크레이들"
+        }
+    }, 
+    
+    "surface": {
+        "word": "surface",
+        "meaning": "표면, 겉",
+        "pronunciation": {
+            "symbol": "ˈsɜːrfɪs",
+            "korean": "서퍼스"
+        }
+    },
+
+    "surmount": {
+        "word": "surmount",
+        "meaning": "(곤란·어려움 등을) 극복하다",
+        "pronunciation": {
+            "symbol": "sərˈmaʊnt",
+            "korean": "서마운트"
+        }
+    }, 
+    
+    "surpass": {
+        "word": "surpass",
+        "meaning": "능가하다, 뛰어넘다",
+        "pronunciation": {
+            "symbol": "əbˈskjʊr",
+            "korean": "서패스"
+        }
+    },
+
+    "surplus": {
+        "word": "surplus",
+        "meaning": "흑자, 남는 것",
+        "pronunciation": {
+            "symbol": "ˈsɜːrpləs",
+            "korean": "서플러스"
+        }
+    },
+    
+    "superficial": {
+        "word": "superficial",
+        "meaning": "피상적인, 겉으로만 그런",
+        "pronunciation": {
+            "symbol": "ˌsuːpərˈfɪʃl",
+            "korean": "수퍼피셜"
+        }
+    },
+
+    "superior": {
+        "word": "superior",
+        "meaning": "더 좋은, 우수한",
+        "pronunciation": {
+            "symbol": "suːˈpɪriər",
+            "korean": "수피리어"
+        }
+    },  
+    
+    
+  "supreme": {
+        "word": "supreme",
+        "meaning": "최고의, 최상의",
+        "pronunciation": {
+            "symbol": "suːˈpriːm",
+            "korean": "수프림"
+        }
+    },
+
+    "artificial": {
+        "word": "artificial",
+        "meaning": "인공의, 인조의",
+        "pronunciation": {
+            "symbol": "ˌɑːrtɪˈfɪʃl",
+            "korean": "아티피셜"
+        }
+    },  
+    
+    "flee": {
+        "word": "flee",
+        "meaning": "달아나다, 도망치다",
+        "pronunciation": {
+            "symbol": "fliː",
+            "korean": "플리"
+        }
+    },
+
+    "core": {
+        "word": "core",
+        "meaning": "핵심, 중심부",
+        "pronunciation": {
+            "symbol": "kɔːr",
+            "korean": "코어"
+        }
+    }, 
+    
+    "spur": {
+        "word": "spur",
+        "meaning": "자극, 박차, 추진력",
+        "pronunciation": {
+            "symbol": "spɜːr",
+            "korean": "스퍼"
+        }
+    },
+
+    "sweep": {
+        "word": "sweep",
+        "meaning": "쓸다, 청소하다",
+        "pronunciation": {
+            "symbol": "swiːp",
+            "korean": "스위프"
+        }
+    }, 
+    
+    "sweeping": {
+        "word": "sweeping",
+        "meaning": "전면적인, 대대적인, 광범위한",
+        "pronunciation": {
+            "symbol": "ˈswiːpɪŋ",
+            "korean": "스위핑"
+        }
+    },
+
+    "toxic": {
+        "word": "toxic",
+        "meaning": "유독한, 독성의",
+        "pronunciation": {
+            "symbol": "ˈtɑːksɪk",
+            "korean": "톡식"
+        }
+    },
+    
+    "prudent": {
+        "word": "prudent",
+        "meaning": "신중한, 조심성 있는",
+        "pronunciation": {
+            "symbol": "ˈpruːdnt",
+            "korean": "프루던트"
+        }
+    },
+
+    "revenue": {
+        "word": "revenue",
+        "meaning": "수익, 수입",
+        "pronunciation": {
+            "symbol": "ˈrevənuː",
+            "korean": "레베뉴"
+        }
+    },  
+    
+
+  "barter": {
+        "word": "barter",
+        "meaning": "물물교환",
+        "pronunciation": {
+            "symbol": "ˈbɑːrtər",
+            "korean": "바럴"
+        }
+    },
+
+    "auction": {
+        "word": "auction",
+        "meaning": "경매",
+        "pronunciation": {
+            "symbol": "ˈɔːkʃn",
+            "korean": "옥션"
+        }
+    },  
+    
+    "peculiar": {
+        "word": "peculiar",
+        "meaning": "이상한, 특유의",
+        "pronunciation": {
+            "symbol": "pɪˈkjuːliər",
+            "korean": "퍼큘리어"
+        }
+    },
+
+    "queer": {
+        "word": "queer",
+        "meaning": "이상한, 괴상한",
+        "pronunciation": {
+            "symbol": "kwɪr",
+            "korean": "퀴어"
+        }
+    }, 
+    
+    "lament": {
+        "word": "lament",
+        "meaning": "애통해하다, 슬퍼하다",
+        "pronunciation": {
+            "symbol": "ləˈment",
+            "korean": "라멘트"
+        }
+    },
+
+    "discipline": {
+        "word": "discipline",
+        "meaning": "규율, 기강",
+        "pronunciation": {
+            "symbol": "ˈdɪsəplɪn",
+            "korean": "디서플린"
+        }
+    }, 
+    
+    "disgust": {
+        "word": "disgust",
+        "meaning": "혐오감, 역겨움",
+        "pronunciation": {
+            "symbol": "dɪsˈɡʌst",
+            "korean": "디스거스트"
+        }
+    },
+
+    "embark": {
+        "word": "embark",
+        "meaning": "(배·비행기 등에) 탑승하다, 승선하다",
+        "pronunciation": {
+            "symbol": "ɪmˈbɑːrk",
+            "korean": "임바크"
+        }
+    },
+    
+    "vapor": {
+        "word": "vapor",
+        "meaning": "증기, 수증기",
+        "pronunciation": {
+            "symbol": "ˈveɪpər",
+            "korean": "베이퍼"
+        }
+    },
+
+    "evaporate": {
+        "word": "evaporate",
+        "meaning": "증발하다, 날아가다",
+        "pronunciation": {
+            "symbol": "ɪˈvæpəreɪt",
+            "korean": "이배퍼레이트"
+        }
+    },
+
+
+  "heap": {
+        "word": "heap",
+        "meaning": "더미, 무더기",
+        "pronunciation": {
+            "symbol": "hiːp",
+            "korean": "힙"
+        }
+    },
+
+    "statistics": {
+        "word": "statistics",
+        "meaning": "통계, 통계 자료",
+        "pronunciation": {
+            "symbol": "stəˈtɪstɪks",
+            "korean": "스태티스틱스"
+        }
+    },  
+    
+    "naughty": {
+        "word": "naughty",
+        "meaning": "버릇없는, 말을 안 듣는",
+        "pronunciation": {
+            "symbol": "ˈnɔːti",
+            "korean": "노티"
+        }
+    },
+
+    "dose": {
+        "word": "dose",
+        "meaning": "(약의) 1회분, 복용량",
+        "pronunciation": {
+            "symbol": "doʊs",
+            "korean": "도우스"
+        }
+    }, 
+    
+    "negative": {
+        "word": "negative",
+        "meaning": "부정적인, 나쁜",
+        "pronunciation": {
+            "symbol": "ˈneɡətɪv",
+            "korean": "네거티브"
+        }
+    },
+
+    "affirmative": {
+        "word": "affirmative",
+        "meaning": "긍정의, 찬성의",
+        "pronunciation": {
+            "symbol": "əˈfɜːrmətɪv",
+            "korean": "어퍼머티브"
+        }
+    }, 
+    
+    "avalanche": {
+        "word": "avalanche",
+        "meaning": "눈사태",
+        "pronunciation": {
+            "symbol": "ˈævəlæntʃ",
+            "korean": "애벌랜치"
+        }
+    },
+
+    "weave": {
+        "word": "weave",
+        "meaning": "(옷감·바구니 등을) 짜다, 엮다",
+        "pronunciation": {
+            "symbol": "wiːv",
+            "korean": "위브"
+        }
+    },
+    
+    "stifle": {
+        "word": "stifle",
+        "meaning": "(감정·웃음 등을) 억누르다, 억제하다",
+        "pronunciation": {
+            "symbol": "ˈstaɪfl",
+            "korean": "스타이플"
+        }
+    },
+
+    "decent": {
+        "word": "decent",
+        "meaning": "괜찮은, 품위 있는, 품위 유지할 만한",
+        "pronunciation": {
+            "symbol": "ˈdiːsnt",
+            "korean": "디슨트"
+        }
+    },  
+    
+    
+  "incredible": {
+        "word": "incredible",
+        "meaning": "믿기 힘든, 놀라운, 굉장한",
+        "pronunciation": {
+            "symbol": "ɪnˈkredəbl",
+            "korean": "인크레더블"
+        }
+    },
+
+    "credible": {
+        "word": "credible",
+        "meaning": "믿을 수 있는, 신뢰할 수 있는",
+        "pronunciation": {
+            "symbol": "ˈkredəbl",
+            "korean": "크레더블"
+        }
+    },  
+    
+    "credulous": {
+        "word": "credulous",
+        "meaning": "잘 믿는, 쉽게 속는, 잘 속아 넘어가는",
+        "pronunciation": {
+            "symbol": "ˈkredʒələs",
+            "korean": "크레줄러스"
+        }
+    },
+
+    "creditable": {
+        "word": "creditable",
+        "meaning": "(성과·행동 등이) 훌륭한, 칭찬할 만한",
+        "pronunciation": {
+            "symbol": "ˈkredɪtəbl",
+            "korean": "크레디터블"
+        }
+    }, 
+    
+    "alternative": {
+        "word": "alternative",
+        "meaning": "대안의, 대체 가능한",
+        "pronunciation": {
+            "symbol": "ɔːlˈtɜːrnətɪv",
+            "korean": "얼터너티브"
+        }
+    },
+
+    "obstruct": {
+        "word": "obstruct",
+        "meaning": "(길·통로 등을) 막다, 차단하다",
+        "pronunciation": {
+            "symbol": "əbˈstrʌkt",
+            "korean": "업스트럭트"
+        }
+    }, 
+    
+    "plow": {
+        "word": "plow",
+        "meaning": "(땅을) 갈다, 쟁기질하다",
+        "pronunciation": {
+            "symbol": "plaʊ",
+            "korean": "플라우"
+        }
+    },
+
+    "stimulus": {
+        "word": "stimulus",
+        "meaning": "자극, 자극제, 활력소",
+        "pronunciation": {
+            "symbol": "ˈstɪmjələs",
+            "korean": "스티뮬러스"
+        }
+    },
+    
+    "smear": {
+        "word": "smear",
+        "meaning": "(기름·페인트 등)바르다, 문지르다",
+        "pronunciation": {
+            "symbol": "smɪr",
+            "korean": "스미어"
+        }
+    },
+
+    "smudge": {
+        "word": "smudge",
+        "meaning": "얼룩, 번진 자국",
+        "pronunciation": {
+            "symbol": "smʌdʒ",
+            "korean": "스머지"
+        }
+    },   
+    
+    
+  "debt": {
+        "word": "debt",
+        "meaning": "부채, 은혜",
+        "pronunciation": {
+            "symbol": "det",
+            "korean": "뎃"
+        }
+    },
+
+    "withstand": {
+        "word": "withstand",
+        "meaning": "견디다, 버티다, 저항하다",
+        "pronunciation": {
+            "symbol": "wɪðˈstænd",
+            "korean": "위드스탠드"
+        }
+    },  
+    
+    "ban": {
+        "word": "ban",
+        "meaning": "금지, 금지령",
+        "pronunciation": {
+            "symbol": "bæn",
+            "korean": "밴"
+        }
+    },
+
+    "delicate": {
+        "word": "delicate",
+        "meaning": "섬세한, 정교한",
+        "pronunciation": {
+            "symbol": "ˈdelɪkət",
+            "korean": "델리컷"
+        }
+    }, 
+    
+    "fertile": {
+        "word": "fertile",
+        "meaning": "비옥한, 기름진",
+        "pronunciation": {
+            "symbol": "ˈfɜːrtl",
+            "korean": "퍼타일"
+        }
+    },
+
+    "precise": {
+        "word": "precise",
+        "meaning": "(표현이) 명확한, 꼼꼼한",
+        "pronunciation": {
+            "symbol": "prɪˈsaɪs",
+            "korean": "프리사이스"
+        }
+    }, 
+    
+    "texture": {
+        "word": "texture",
+        "meaning": "(음악·글 등의) 조화, 구조",
+        "pronunciation": {
+            "symbol": "ˈtekstʃər",
+            "korean": "텍스처"
+        }
+    },
+
+    "illusion": {
+        "word": "illusion",
+        "meaning": "환상, 착각",
+        "pronunciation": {
+            "symbol": "ɪˈluːʒn",
+            "korean": "일루전"
+        }
+    },
+    
+    "tap": {
+        "word": "tap",
+        "meaning": "톡톡 두드리다, 가볍게 두드리다",
+        "pronunciation": {
+            "symbol": "tæp",
+            "korean": "탭"
+        }
+    },
+
+    "significant": {
+        "word": "significant",
+        "meaning": "중요한, 의미 있는",
+        "pronunciation": {
+            "symbol": "sɪɡˈnɪfɪkənt",
+            "korean": "시그니피컨트"
+        }
+    }  
+}
